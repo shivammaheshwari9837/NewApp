@@ -17,6 +17,7 @@
 		6A5373BA2A1BD4DD007E6A08 /* NewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5373B92A1BD4DD007E6A08 /* NewAppUITests.swift */; };
 		6A5373BC2A1BD4DD007E6A08 /* NewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5373BB2A1BD4DD007E6A08 /* NewAppUITestsLaunchTests.swift */; };
 		6A5373C92A1BD8B2007E6A08 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5373C82A1BD8B2007E6A08 /* APICaller.swift */; };
+		6AD96CFF2A1E784600FE4A56 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD96CFE2A1E784600FE4A56 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6A5373B92A1BD4DD007E6A08 /* NewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppUITests.swift; sourceTree = "<group>"; };
 		6A5373BB2A1BD4DD007E6A08 /* NewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6A5373C82A1BD8B2007E6A08 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		6AD96CFE2A1E784600FE4A56 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				6A5373A32A1BD4DD007E6A08 /* LaunchScreen.storyboard */,
 				6A5373A62A1BD4DD007E6A08 /* Info.plist */,
 				6A5373C82A1BD8B2007E6A08 /* APICaller.swift */,
+				6AD96CFE2A1E784600FE4A56 /* NewsTableViewCell.swift */,
 			);
 			path = NewApp;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				6A53739D2A1BD4DC007E6A08 /* ViewController.swift in Sources */,
 				6A5373992A1BD4DC007E6A08 /* AppDelegate.swift in Sources */,
+				6AD96CFF2A1E784600FE4A56 /* NewsTableViewCell.swift in Sources */,
 				6A53739B2A1BD4DC007E6A08 /* SceneDelegate.swift in Sources */,
 				6A5373C92A1BD8B2007E6A08 /* APICaller.swift in Sources */,
 			);
