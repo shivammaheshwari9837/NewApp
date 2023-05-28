@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController,
                       UITableViewDelegate,
@@ -18,6 +19,7 @@ class ViewController: UIViewController,
         return table
     }()
     
+    private var articles: [Article] = []
     private var viewModels: [NewsTableViewCellViewModel] = []
     
     override func viewDidLoad() {
@@ -31,6 +33,7 @@ class ViewController: UIViewController,
         APICaller.shared.getTopStories { [weak self] result in
             switch result {
             case .success(let articles):
+                self?.articles = articles
                 self?.viewModels = articles.compactMap({
                     NewsTableViewCellViewModel
                         .init(title: $0.title ?? "Title Not Found",
@@ -42,7 +45,7 @@ class ViewController: UIViewController,
                     self?.tableView.reloadData()
                 }
                 
-            case .failure(let failure):
+            case .failure:
                 break
             }
         }
@@ -69,6 +72,15 @@ class ViewController: UIViewController,
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        let article = self.articles[indexPath.row]
+        
+        guard let url = URL(string: article.url ?? "") else {
+            return
+        }
+        
+        let safariVC = SFSafariViewController(url: url)
+        present(safariVC, animated: true)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
