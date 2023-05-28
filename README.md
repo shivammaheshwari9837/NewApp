@@ -1,6 +1,10 @@
 # NewsFeedApp
 NewsFeedApp is a dynamic news app that allows users to read news articles in detail
 
+## Video
+
+https://github.com/shivammaheshwari9837/NewsApp/assets/56878460/2bb5e575-fef2-4358-bced-44050dbaed40
+
 ## Features
 - Browse a curated news feed with articles from reputable sources.
 - View articles in a clean and user-friendly interface.
