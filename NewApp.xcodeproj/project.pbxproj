@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A1EEE682A23C945007E0C65 /* NewsApp.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = NewsApp.mp4; path = ../../../../../Desktop/NewsApp.mp4; sourceTree = "<group>"; };
 		6A5373952A1BD4DC007E6A08 /* NewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5373982A1BD4DC007E6A08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A53739A2A1BD4DC007E6A08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A1EEE672A23C8DC007E0C65 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				6A1EEE682A23C945007E0C65 /* NewsApp.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
 		6A53738C2A1BD4DC007E6A08 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +112,7 @@
 		6A5373972A1BD4DC007E6A08 /* NewApp */ = {
 			isa = PBXGroup;
 			children = (
+				6A1EEE672A23C8DC007E0C65 /* Videos */,
 				6A5373982A1BD4DC007E6A08 /* AppDelegate.swift */,
 				6A53739A2A1BD4DC007E6A08 /* SceneDelegate.swift */,
 				6A53739C2A1BD4DC007E6A08 /* ViewController.swift */,
