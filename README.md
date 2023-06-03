@@ -12,7 +12,7 @@ https://github.com/shivammaheshwari9837/NewsApp/assets/56878460/2bb5e575-fef2-43
 
 ## Requirements
 - iOS 16.0+
-- Xcode 12.0+
+- Xcode 14.0+
 - Swift 5.0+
 
 ## Installation
